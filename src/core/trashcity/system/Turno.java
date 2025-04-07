@@ -41,6 +41,42 @@ public class Turno {
         this.asistente1.addTurno(this);
         this.asistente2.addTurno(this);
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public Camion getCamion() {
+        return camion;
+    }
+
+    public Conductor getConductor() {
+        return conductor;
+    }
+
+    public Asistente getAsistente1() {
+        return asistente1;
+    }
+
+    public Asistente getAsistente2() {
+        return asistente2;
+    }
+
+    public Ruta getRuta() {
+        return ruta;
+    }
+
+    public LocalDateTime getFechaInicio() {
+        return fechaInicio;
+    }
+
+    public LocalDateTime getFechaFin() {
+        return fechaFin;
+    }
+    
+    public Residuo getResiduos() {
+        return residuos;
+    }
     
     public void ejecutar(LocalDateTime fechaInicio, int horas) {
         this.fechaInicio = fechaInicio;

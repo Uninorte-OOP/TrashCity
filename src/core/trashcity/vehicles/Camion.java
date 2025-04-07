@@ -32,5 +32,9 @@ public class Camion {
     public int getId() {
         return id;
     }
+
+    public String getPlaca() {
+        return placa;
+    }
     
 }

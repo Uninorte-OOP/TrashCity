@@ -17,5 +17,10 @@ public class PuntoGeografico {
         this.latitud = latitud;
         this.longitud = longitud;
     }
+
+    @Override
+    public String toString() {
+        return "(" + latitud + ", " + longitud + ")";
+    }
     
 }

@@ -447,6 +447,134 @@ public class MainParcial2251 {
 
         trashCity.getTurno(49).ejecutar(LocalDateTime.of(2025, 1, 20, 14, 23), 3);
         trashCity.getTurno(49).clasificarResiduos(10.874, 4.084, 15.316, 10.370, 6.829);
+        
+        trashCity.showMinMaxTurnoPorResiduo();
+        trashCity.showRutaMaxMetal();
     }
     
 }
+
+/**
+------------- Resultados -------------
+
+Residuo - Vidrio
+- Turno Minimo:
+  - ID: 35
+  - Camion: VWX234
+  - Conductor: Carlos Sanchez
+  - Asistente 1: Juliana Vargas
+  - Asistente 2: Emilia Ruiz
+  - Fecha Inicio: 2025-01-01T17:14
+  - Fecha Fin: 2025-01-01T19:14
+  - Cantidad: 0.005
+- Turno Maximo:
+  - ID: 27
+  - Camion: MNO345
+  - Conductor: Juan Perez
+  - Asistente 1: Lina Castro
+  - Asistente 2: Juliana Vargas
+  - Fecha Inicio: 2025-01-21T11:12
+  - Fecha Fin: 2025-01-21T12:12
+  - Cantidad: 19.138
+
+Residuo - Papel
+- Turno Minimo:
+  - ID: 12
+  - Camion: ABC123
+  - Conductor: Ana Torres
+  - Asistente 1: Victoria Castro
+  - Asistente 2: Lina Castro
+  - Fecha Inicio: 2025-01-16T06:32
+  - Fecha Fin: 2025-01-16T11:32
+  - Cantidad: 0.14
+- Turno Maximo:
+  - ID: 5
+  - Camion: VWX234
+  - Conductor: Maria Gomez
+  - Asistente 1: Mateo Jimenez
+  - Asistente 2: Natalia Herrera
+  - Fecha Inicio: 2025-01-23T02:05
+  - Fecha Fin: 2025-01-23T06:05
+  - Cantidad: 19.967
+
+Residuo - Plastico
+- Turno Minimo:
+  - ID: 22
+  - Camion: PQR678
+  - Conductor: Diego Morales
+  - Asistente 1: Natalia Herrera
+  - Asistente 2: Samuel Vargas
+  - Fecha Inicio: 2025-01-07T01:20
+  - Fecha Fin: 2025-01-07T02:20
+  - Cantidad: 0.82
+- Turno Maximo:
+  - ID: 2
+  - Camion: BCD890
+  - Conductor: Juan Perez
+  - Asistente 1: Jose Torres
+  - Asistente 2: Lina Castro
+  - Fecha Inicio: 2025-01-22T18:58
+  - Fecha Fin: 2025-01-22T20:58
+  - Cantidad: 19.881
+
+Residuo - Metal
+- Turno Minimo:
+  - ID: 3
+  - Camion: YZA567
+  - Conductor: Luis Martinez
+  - Asistente 1: Lina Castro
+  - Asistente 2: Victoria Castro
+  - Fecha Inicio: 2025-01-02T20:02
+  - Fecha Fin: 2025-01-02T22:02
+  - Cantidad: 0.474
+- Turno Maximo:
+  - ID: 32
+  - Camion: MNO345
+  - Conductor: Camila Vargas
+  - Asistente 1: Lucas Torres
+  - Asistente 2: Juanita Herrera
+  - Fecha Inicio: 2025-01-04T14:31
+  - Fecha Fin: 2025-01-04T19:31
+  - Cantidad: 19.5
+
+Residuo - Residuos Organicos
+- Turno Minimo:
+  - ID: 46
+  - Camion: DEF456
+  - Conductor: Luis Martinez
+  - Asistente 1: Daniela Morales
+  - Asistente 2: Isabella Castro
+  - Fecha Inicio: 2025-01-21T21:23
+  - Fecha Fin: 2025-01-21T23:23
+  - Cantidad: 0.322
+- Turno Maximo:
+  - ID: 0
+  - Camion: ABC123
+  - Conductor: Maria Gomez
+  - Asistente 1: Mariana Morales
+  - Asistente 2: Victoria Castro
+  - Fecha Inicio: 2025-01-24T02:47
+  - Fecha Fin: 2025-01-24T06:47
+  - Cantidad: 19.965
+
+Los puntos de la ruta con mayor cantidad de metal recogido son:
+- (2.02691, -69.37702)
+- (7.80982, -65.42437)
+- (-1.75753, -75.93686)
+- (0.93654, -71.56523)
+- (5.1679, -68.86341)
+- (4.49119, -67.63724)
+- (7.46559, -77.04132)
+- (5.14704, -78.46141)
+- (5.05173, -74.96543)
+- (1.573, -72.08537)
+- (2.31236, -72.33536)
+- (2.92271, -72.38302)
+- (5.05097, -76.1704)
+- (7.01966, -70.63856)
+- (2.54529, -73.41134)
+- (8.98738, -73.12421)
+- (1.82856, -68.95705)
+- (-1.1964, -71.23951)
+La cantidad de metal total en la ruta es: 82.092
+*/
