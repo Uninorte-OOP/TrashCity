@@ -21,5 +21,9 @@ public abstract class Empleado {
         this.edad = edad;
         this.salario = salario;
     }
+
+    public int getId() {
+        return id;
+    }
     
 }

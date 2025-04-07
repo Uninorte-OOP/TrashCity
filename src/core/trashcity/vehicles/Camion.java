@@ -25,4 +25,12 @@ public class Camion {
         this.turnos = new ArrayList<>();
     }
     
+    public void addTurno(Turno turno) {
+        this.turnos.add(turno);
+    }
+
+    public int getId() {
+        return id;
+    }
+    
 }

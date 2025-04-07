@@ -20,4 +20,8 @@ public class Conductor extends Empleado {
         this.turnos = new ArrayList<>();
     }
     
+    public void addTurno(Turno turno) {
+        this.turnos.add(turno);
+    }
+    
 }
